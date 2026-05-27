@@ -1,0 +1,36 @@
+<link name="stereo_camera_link">
+  <sensor name="stereo_camera" type="multicamera">
+    <update_rate>30.0</update_rate>
+    <always_on>true</always_on>
+    <visualize>true</visualize>
+    <topic>stereo_camera</topic>
+
+    <camera name="left">
+      <pose>0 0.05 0 0 0 0</pose> 
+      <horizontal_fov>1.3962634</horizontal_fov>
+      <image>
+        <width>640</width>
+        <height>480</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.02</near>
+        <far>300</far>
+      </clip>
+    </camera>
+
+    <camera name="right">
+      <pose>0 -0.05 0 0 0 0</pose> 
+      <horizontal_fov>1.3962634</horizontal_fov>
+      <image>
+        <width>640</width>
+        <height>480</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.02</near>
+        <far>300</far>
+      </clip>
+    </camera>
+  </sensor>
+</link>
