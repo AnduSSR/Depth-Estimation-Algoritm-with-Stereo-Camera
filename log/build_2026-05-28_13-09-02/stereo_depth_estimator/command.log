@@ -1,0 +1,2 @@
+Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4

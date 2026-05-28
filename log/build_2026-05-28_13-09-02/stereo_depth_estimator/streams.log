@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+[0.033s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.342s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.411s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.828s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.869s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.872s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.879s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.886s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[0.886s]   ament_cmake_symlink_install_targets() 'stereo_depth_node' is not a target
+[0.886s] Call Stack (most recent call first):
+[0.886s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[0.886s]   CMakeLists.txt:16 (install)
+[0.886s] 
+[0.886s] [0m
+[0.887s] -- Configuring incomplete, errors occurred!
+[0.892s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.894s] Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4

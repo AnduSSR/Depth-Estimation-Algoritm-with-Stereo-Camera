@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.001709] (stereo_depth_estimator) JobQueued: {'identifier': 'stereo_depth_estimator', 'dependencies': OrderedDict()}
+[0.001758] (stereo_depth_estimator) JobStarted: {'identifier': 'stereo_depth_estimator'}
+[0.022264] (stereo_depth_estimator) JobProgress: {'identifier': 'stereo_depth_estimator', 'progress': 'cmake'}
+[0.024942] (stereo_depth_estimator) JobProgress: {'identifier': 'stereo_depth_estimator', 'progress': 'build'}
+[0.025552] (stereo_depth_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', '--', '-j4', '-l4'], 'cwd': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'andux', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andux', 'OLDPWD': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src', 'TERM_PROGRAM_VERSION': '1.121.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ae3c3d06-f461-4469-b5d2-f89b377d4439.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andux', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/769_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/andux/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andux/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/d/VMware/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Mathlab/runtime/win64:/mnt/d/Mathlab/bin:/mnt/d/Git/cmd:/mnt/d/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Sunshine:/mnt/d/Sunshine/tools:/mnt/c/Users/andux/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/andux/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/andux/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/Rufus.Rufus_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/andux/.dotnet/tools:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/OPAutoClicker.OPAutoClicker_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1-full_build/bin:/mnt/c/Users/andux/AppData/Roaming/npm:/mnt/c/ffmpeg:/mnt/c/Users/andux/AppData/Roaming/Python/Python313/Scripts:/mnt/c/Users/andux/AppData/Roaming/Python/Python313/:/mnt/c/Users/andux/.bun/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d1c63ae7a6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.103994] (-) TimerEvent: {}
+[0.205237] (-) TimerEvent: {}
+[0.243037] (stereo_depth_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stereo_depth_node.dir/src/stereo_depth_node.cpp.o\x1b[0m\n'}
+[0.305345] (-) TimerEvent: {}
+[0.406427] (-) TimerEvent: {}
+[0.511945] (-) TimerEvent: {}
+[0.612474] (-) TimerEvent: {}
+[0.712836] (-) TimerEvent: {}
+[0.813752] (-) TimerEvent: {}
+[0.918777] (-) TimerEvent: {}
+[1.019324] (-) TimerEvent: {}
+[1.120152] (-) TimerEvent: {}
+[1.221181] (-) TimerEvent: {}
+[1.328583] (-) TimerEvent: {}
+[1.429329] (-) TimerEvent: {}
+[1.530460] (-) TimerEvent: {}
+[1.631711] (-) TimerEvent: {}
+[1.732722] (-) TimerEvent: {}
+[1.836522] (-) TimerEvent: {}
+[1.938043] (-) TimerEvent: {}
+[2.040966] (-) TimerEvent: {}
+[2.141324] (-) TimerEvent: {}
+[2.241958] (-) TimerEvent: {}
+[2.346516] (-) TimerEvent: {}
+[2.447106] (-) TimerEvent: {}
+[2.547967] (-) TimerEvent: {}
+[2.652253] (-) TimerEvent: {}
+[2.752708] (-) TimerEvent: {}
+[2.858030] (-) TimerEvent: {}
+[2.958349] (-) TimerEvent: {}
+[3.058747] (-) TimerEvent: {}
+[3.162985] (-) TimerEvent: {}
+[3.267760] (-) TimerEvent: {}
+[3.368226] (-) TimerEvent: {}
+[3.469281] (-) TimerEvent: {}
+[3.575945] (-) TimerEvent: {}
+[3.679710] (-) TimerEvent: {}
+[3.780434] (-) TimerEvent: {}
+[3.881206] (-) TimerEvent: {}
+[3.983835] (-) TimerEvent: {}
+[4.085028] (-) TimerEvent: {}
+[4.191836] (-) TimerEvent: {}
+[4.292576] (-) TimerEvent: {}
+[4.394358] (-) TimerEvent: {}
+[4.499983] (-) TimerEvent: {}
+[4.600464] (-) TimerEvent: {}
+[4.701009] (-) TimerEvent: {}
+[4.805725] (-) TimerEvent: {}
+[4.906124] (-) TimerEvent: {}
+[5.006655] (-) TimerEvent: {}
+[5.107168] (-) TimerEvent: {}
+[5.209683] (-) TimerEvent: {}
+[5.310146] (-) TimerEvent: {}
+[5.411295] (-) TimerEvent: {}
+[5.515629] (-) TimerEvent: {}
+[5.616245] (-) TimerEvent: {}
+[5.718775] (-) TimerEvent: {}
+[5.819273] (-) TimerEvent: {}
+[5.920045] (-) TimerEvent: {}
+[6.021140] (-) TimerEvent: {}
+[6.128558] (-) TimerEvent: {}
+[6.229018] (-) TimerEvent: {}
+[6.329977] (-) TimerEvent: {}
+[6.430628] (-) TimerEvent: {}
+[6.531683] (-) TimerEvent: {}
+[6.635330] (-) TimerEvent: {}
+[6.736408] (-) TimerEvent: {}
+[6.836990] (-) TimerEvent: {}
+[6.943615] (-) TimerEvent: {}
+[7.044473] (-) TimerEvent: {}
+[7.146600] (-) TimerEvent: {}
+[7.248178] (-) TimerEvent: {}
+[7.351537] (-) TimerEvent: {}
+[7.451928] (-) TimerEvent: {}
+[7.557107] (-) TimerEvent: {}
+[7.663626] (-) TimerEvent: {}
+[7.765283] (-) TimerEvent: {}
+[7.873841] (-) TimerEvent: {}
+[7.980396] (-) TimerEvent: {}
+[8.085370] (-) TimerEvent: {}
+[8.186487] (-) TimerEvent: {}
+[8.290247] (-) TimerEvent: {}
+[8.395552] (-) TimerEvent: {}
+[8.499513] (-) TimerEvent: {}
+[8.600033] (-) TimerEvent: {}
+[8.701199] (-) TimerEvent: {}
+[8.802154] (-) TimerEvent: {}
+[8.902962] (-) TimerEvent: {}
+[9.007226] (-) TimerEvent: {}
+[9.109238] (-) TimerEvent: {}
+[9.210417] (-) TimerEvent: {}
+[9.311946] (-) TimerEvent: {}
+[9.413092] (-) TimerEvent: {}
+[9.515457] (-) TimerEvent: {}
+[9.621689] (-) TimerEvent: {}
+[9.722329] (-) TimerEvent: {}
+[9.824300] (-) TimerEvent: {}
+[9.926744] (-) TimerEvent: {}
+[10.029303] (-) TimerEvent: {}
+[10.130227] (-) TimerEvent: {}
+[10.235845] (-) TimerEvent: {}
+[10.337729] (-) TimerEvent: {}
+[10.438616] (-) TimerEvent: {}
+[10.544237] (-) TimerEvent: {}
+[10.645682] (-) TimerEvent: {}
+[10.752003] (-) TimerEvent: {}
+[10.852289] (-) TimerEvent: {}
+[10.965673] (-) TimerEvent: {}
+[11.066441] (-) TimerEvent: {}
+[11.166887] (-) TimerEvent: {}
+[11.268746] (-) TimerEvent: {}
+[11.369448] (-) TimerEvent: {}
+[11.475518] (-) TimerEvent: {}
+[11.579523] (-) TimerEvent: {}
+[11.679882] (-) TimerEvent: {}
+[11.781366] (-) TimerEvent: {}
+[11.882617] (-) TimerEvent: {}
+[11.988453] (-) TimerEvent: {}
+[12.094087] (-) TimerEvent: {}
+[12.199630] (-) TimerEvent: {}
+[12.301017] (-) TimerEvent: {}
+[12.403256] (-) TimerEvent: {}
+[12.504144] (-) TimerEvent: {}
+[12.607963] (-) TimerEvent: {}
+[12.708514] (-) TimerEvent: {}
+[12.810601] (-) TimerEvent: {}
+[12.915510] (-) TimerEvent: {}
+[13.019880] (-) TimerEvent: {}
+[13.121358] (-) TimerEvent: {}
+[13.222413] (-) TimerEvent: {}
+[13.323151] (-) TimerEvent: {}
+[13.424523] (-) TimerEvent: {}
+[13.525894] (-) TimerEvent: {}
+[13.626637] (-) TimerEvent: {}
+[13.728582] (-) TimerEvent: {}
+[13.834440] (-) TimerEvent: {}
+[13.936601] (-) TimerEvent: {}
+[14.041926] (-) TimerEvent: {}
+[14.149377] (-) TimerEvent: {}
+[14.250319] (-) TimerEvent: {}
+[14.351160] (-) TimerEvent: {}
+[14.456135] (-) TimerEvent: {}
+[14.556480] (-) TimerEvent: {}
+[14.656841] (-) TimerEvent: {}
+[14.758051] (-) TimerEvent: {}
+[14.860330] (-) TimerEvent: {}
+[14.961439] (-) TimerEvent: {}
+[15.063726] (-) TimerEvent: {}
+[15.165135] (-) TimerEvent: {}
+[15.267322] (-) TimerEvent: {}
+[15.368604] (-) TimerEvent: {}
+[15.472887] (-) TimerEvent: {}
+[15.573349] (-) TimerEvent: {}
+[15.674715] (-) TimerEvent: {}
+[15.779874] (-) TimerEvent: {}
+[15.880657] (-) TimerEvent: {}
+[15.982035] (-) TimerEvent: {}
+[16.083162] (-) TimerEvent: {}
+[16.185699] (-) TimerEvent: {}
+[16.291699] (-) TimerEvent: {}
+[16.392126] (-) TimerEvent: {}
+[16.492861] (-) TimerEvent: {}
+[16.593296] (-) TimerEvent: {}
+[16.695673] (-) TimerEvent: {}
+[16.796072] (-) TimerEvent: {}
+[16.896614] (-) TimerEvent: {}
+[16.996999] (-) TimerEvent: {}
+[17.099561] (-) TimerEvent: {}
+[17.200091] (-) TimerEvent: {}
+[17.302815] (-) TimerEvent: {}
+[17.404336] (-) TimerEvent: {}
+[17.507682] (-) TimerEvent: {}
+[17.608411] (-) TimerEvent: {}
+[17.709071] (-) TimerEvent: {}
+[17.830237] (-) TimerEvent: {}
+[17.931706] (-) TimerEvent: {}
+[18.035647] (-) TimerEvent: {}
+[18.137954] (-) TimerEvent: {}
+[18.239031] (-) TimerEvent: {}
+[18.339609] (-) TimerEvent: {}
+[18.439953] (-) TimerEvent: {}
+[18.541080] (-) TimerEvent: {}
+[18.642724] (-) TimerEvent: {}
+[18.747476] (-) TimerEvent: {}
+[18.852155] (-) TimerEvent: {}
+[18.955171] (-) TimerEvent: {}
+[19.056395] (-) TimerEvent: {}
+[19.156717] (-) TimerEvent: {}
+[19.257304] (-) TimerEvent: {}
+[19.357751] (-) TimerEvent: {}
+[19.458519] (-) TimerEvent: {}
+[19.561867] (-) TimerEvent: {}
+[19.662726] (-) TimerEvent: {}
+[19.763976] (-) TimerEvent: {}
+[19.867472] (-) TimerEvent: {}
+[19.968042] (-) TimerEvent: {}
+[20.068385] (-) TimerEvent: {}
+[20.169193] (-) TimerEvent: {}
+[20.269867] (-) TimerEvent: {}
+[20.371501] (-) TimerEvent: {}
+[20.479139] (-) TimerEvent: {}
+[20.579765] (-) TimerEvent: {}
+[20.680544] (-) TimerEvent: {}
+[20.780994] (-) TimerEvent: {}
+[20.881704] (-) TimerEvent: {}
+[20.987047] (-) TimerEvent: {}
+[21.087719] (-) TimerEvent: {}
+[21.188217] (-) TimerEvent: {}
+[21.288706] (-) TimerEvent: {}
+[21.389415] (-) TimerEvent: {}
+[21.492360] (-) TimerEvent: {}
+[21.592899] (-) TimerEvent: {}
+[21.693277] (-) TimerEvent: {}
+[21.793716] (-) TimerEvent: {}
+[21.894421] (-) TimerEvent: {}
+[21.994764] (-) TimerEvent: {}
+[22.095253] (-) TimerEvent: {}
+[22.197340] (-) TimerEvent: {}
+[22.303819] (-) TimerEvent: {}
+[22.404079] (-) TimerEvent: {}
+[22.504464] (-) TimerEvent: {}
+[22.605205] (-) TimerEvent: {}
+[22.707060] (-) TimerEvent: {}
+[22.807572] (-) TimerEvent: {}
+[22.911874] (-) TimerEvent: {}
+[23.012596] (-) TimerEvent: {}
+[23.115055] (-) TimerEvent: {}
+[23.216516] (-) TimerEvent: {}
+[23.317007] (-) TimerEvent: {}
+[23.419535] (-) TimerEvent: {}
+[23.521036] (-) TimerEvent: {}
+[23.622009] (-) TimerEvent: {}
+[23.722521] (-) TimerEvent: {}
+[23.825323] (-) TimerEvent: {}
+[23.929009] (-) TimerEvent: {}
+[24.029491] (-) TimerEvent: {}
+[24.130180] (-) TimerEvent: {}
+[24.232192] (-) TimerEvent: {}
+[24.336072] (-) TimerEvent: {}
+[24.436693] (-) TimerEvent: {}
+[24.539581] (-) TimerEvent: {}
+[24.640499] (-) TimerEvent: {}
+[24.742870] (-) TimerEvent: {}
+[24.843907] (-) TimerEvent: {}
+[24.886019] (stereo_depth_estimator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stereo_depth_node\x1b[0m\n'}
+[24.944208] (-) TimerEvent: {}
+[25.047679] (-) TimerEvent: {}
+[25.162714] (-) TimerEvent: {}
+[25.263143] (-) TimerEvent: {}
+[25.363660] (-) TimerEvent: {}
+[25.465074] (-) TimerEvent: {}
+[25.566134] (-) TimerEvent: {}
+[25.666826] (-) TimerEvent: {}
+[25.768561] (-) TimerEvent: {}
+[25.869220] (-) TimerEvent: {}
+[25.970856] (-) TimerEvent: {}
+[26.078093] (-) TimerEvent: {}
+[26.178871] (-) TimerEvent: {}
+[26.279732] (-) TimerEvent: {}
+[26.382550] (-) TimerEvent: {}
+[26.489480] (-) TimerEvent: {}
+[26.590062] (-) TimerEvent: {}
+[26.690730] (-) TimerEvent: {}
+[26.795925] (-) TimerEvent: {}
+[26.896385] (-) TimerEvent: {}
+[26.996935] (-) TimerEvent: {}
+[27.097971] (-) TimerEvent: {}
+[27.199127] (-) TimerEvent: {}
+[27.300086] (-) TimerEvent: {}
+[27.400644] (-) TimerEvent: {}
+[27.501155] (-) TimerEvent: {}
+[27.601939] (-) TimerEvent: {}
+[27.667028] (stereo_depth_estimator) StdoutLine: {'line': b'[100%] Built target stereo_depth_node\n'}
+[27.688830] (stereo_depth_estimator) CommandEnded: {'returncode': 0}
+[27.690079] (stereo_depth_estimator) JobProgress: {'identifier': 'stereo_depth_estimator', 'progress': 'install'}
+[27.702170] (-) TimerEvent: {}
+[27.703859] (stereo_depth_estimator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator'], 'cwd': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'andux', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andux', 'OLDPWD': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src', 'TERM_PROGRAM_VERSION': '1.121.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ae3c3d06-f461-4469-b5d2-f89b377d4439.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andux', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/769_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/andux/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andux/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andux/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/d/VMware/bin/:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Mathlab/runtime/win64:/mnt/d/Mathlab/bin:/mnt/d/Git/cmd:/mnt/d/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Sunshine:/mnt/d/Sunshine/tools:/mnt/c/Users/andux/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/andux/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/andux/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/Rufus.Rufus_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/andux/.dotnet/tools:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/OPAutoClicker.OPAutoClicker_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/andux/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1-full_build/bin:/mnt/c/Users/andux/AppData/Roaming/npm:/mnt/c/ffmpeg:/mnt/c/Users/andux/AppData/Roaming/Python/Python313/Scripts:/mnt/c/Users/andux/AppData/Roaming/Python/Python313/:/mnt/c/Users/andux/.bun/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d1c63ae7a6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[27.724989] (stereo_depth_estimator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.725848] (stereo_depth_estimator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.729493] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/stereo_depth_estimator/stereo_depth_node\n'}
+[27.729767] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/package_run_dependencies/stereo_depth_estimator\n'}
+[27.729912] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/parent_prefix_path/stereo_depth_estimator\n'}
+[27.730101] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.sh\n'}
+[27.730148] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.dsv\n'}
+[27.730324] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.sh\n'}
+[27.730738] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.dsv\n'}
+[27.730786] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.bash\n'}
+[27.730834] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.sh\n'}
+[27.730872] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.zsh\n'}
+[27.730911] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.dsv\n'}
+[27.730947] (stereo_depth_estimator) StdoutLine: {'line': b'-- Symlinking: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.dsv\n'}
+[27.744215] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/packages/stereo_depth_estimator\n'}
+[27.748816] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig.cmake\n'}
+[27.748931] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig-version.cmake\n'}
+[27.748979] (stereo_depth_estimator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.xml\n'}
+[27.749068] (stereo_depth_estimator) CommandEnded: {'returncode': 0}
+[27.772993] (stereo_depth_estimator) JobEnded: {'identifier': 'stereo_depth_estimator', 'rc': 0}
+[27.773883] (-) EventReactorShutdown: {}

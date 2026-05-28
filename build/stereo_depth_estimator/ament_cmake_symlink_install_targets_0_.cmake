@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/stereo_depth_node" "TARGETS" "stereo_depth_node" "DESTINATION" "lib/stereo_depth_estimator")

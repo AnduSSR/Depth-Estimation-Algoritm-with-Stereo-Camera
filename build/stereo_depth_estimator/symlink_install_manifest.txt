@@ -1,0 +1,16 @@
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/stereo_depth_estimator/stereo_depth_node
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/package_run_dependencies/stereo_depth_estimator
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/parent_prefix_path/stereo_depth_estimator
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.sh
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.dsv
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.sh
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.dsv
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.bash
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.sh
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.zsh
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.dsv
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.dsv
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/packages/stereo_depth_estimator
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig.cmake
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig-version.cmake
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.xml

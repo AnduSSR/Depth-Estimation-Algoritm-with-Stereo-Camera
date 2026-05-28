@@ -1,0 +1,10 @@
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/uninstall.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/stereo_depth_estimator_uninstall.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/stereo_depth_node.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/test.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/edit_cache.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/rebuild_cache.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/list_install_components.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/install.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/install/local.dir
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/CMakeFiles/install/strip.dir

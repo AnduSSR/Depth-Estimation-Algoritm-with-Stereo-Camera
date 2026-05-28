@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d3506b760948d2b6de3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stereo_depth_estimator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_depth_estimator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_depth_estimator_uninstall-a6ea28c25872a0bbb79b.json",
+					"name" : "stereo_depth_estimator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_depth_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_depth_node-45ea499ea166103ecc9d.json",
+					"name" : "stereo_depth_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a807a65f2c2b8f000de0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator",
+		"source" : "/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src/stereo_depth_estimator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

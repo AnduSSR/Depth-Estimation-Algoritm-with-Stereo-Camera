@@ -1,0 +1,143 @@
+[0.373s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'stereo_depth_estimator', '--symlink-install']
+[0.374s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['stereo_depth_estimator'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x759ad7b6aae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x759ad86afbf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x759ad86afbf0>>)
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_depth_estimator) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stereo_depth_estimator' with type 'ros.ament_cmake' and name 'stereo_depth_estimator'
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.534s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install
+[0.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/jazzy
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'stereo_depth_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_depth_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator', 'merge_install': False, 'path': '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src/stereo_depth_estimator', 'symlink_install': True, 'test_result_base': None}
+[0.586s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src/stereo_depth_estimator' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/src/stereo_depth_estimator'
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+[28.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+[28.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator
+[28.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo_depth_estimator)
+[28.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator
+[28.337s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator' for CMake module files
+[28.337s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator' for CMake config files
+[28.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_depth_estimator', 'cmake_prefix_path')
+[28.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.ps1'
+[28.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.dsv'
+[28.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.sh'
+[28.341s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib'
+[28.342s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/bin'
+[28.342s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/pkgconfig/stereo_depth_estimator.pc'
+[28.342s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/python3.12/site-packages'
+[28.342s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/bin'
+[28.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.ps1'
+[28.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.dsv'
+[28.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.sh'
+[28.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.bash'
+[28.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.zsh'
+[28.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/colcon-core/packages/stereo_depth_estimator)
+[28.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo_depth_estimator)
+[28.348s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator' for CMake module files
+[28.348s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator' for CMake config files
+[28.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_depth_estimator', 'cmake_prefix_path')
+[28.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.ps1'
+[28.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.dsv'
+[28.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/hook/cmake_prefix_path.sh'
+[28.355s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib'
+[28.355s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/bin'
+[28.355s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/pkgconfig/stereo_depth_estimator.pc'
+[28.355s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/python3.12/site-packages'
+[28.356s] Level 1:colcon.colcon_core.environment:checking '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/bin'
+[28.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.ps1'
+[28.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.dsv'
+[28.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.sh'
+[28.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.bash'
+[28.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.zsh'
+[28.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/colcon-core/packages/stereo_depth_estimator)
+[28.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.360s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.482s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.484s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[28.484s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/local_setup.ps1'
+[28.490s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/_local_setup_util_ps1.py'
+[28.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/setup.ps1'
+[28.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/local_setup.sh'
+[28.493s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/_local_setup_util_sh.py'
+[28.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/setup.sh'
+[28.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/local_setup.bash'
+[28.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/setup.bash'
+[28.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/local_setup.zsh'
+[28.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_depth_node.dir/src/stereo_depth_node.cpp.o[0m
+[10.641s] [100%] [32m[1mLinking CXX executable stereo_depth_node[0m
+[11.530s] [100%] Built target stereo_depth_node
+[11.544s] Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator -- -j4 -l4
+[11.555s] Invoking command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator
+[11.563s] -- Install configuration: ""
+[11.564s] -- Execute custom install script
+[11.566s] -- Symlinking: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/lib/stereo_depth_estimator/stereo_depth_node
+[11.575s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/package_run_dependencies/stereo_depth_estimator
+[11.575s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/parent_prefix_path/stereo_depth_estimator
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.sh
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/ament_prefix_path.dsv
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.sh
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/environment/path.dsv
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.bash
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.sh
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.zsh
+[11.576s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/local_setup.dsv
+[11.576s] -- Symlinking: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.dsv
+[11.585s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/ament_index/resource_index/packages/stereo_depth_estimator
+[11.585s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig.cmake
+[11.585s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/cmake/stereo_depth_estimatorConfig-version.cmake
+[11.585s] -- Up-to-date symlink: /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/install/stereo_depth_estimator/share/stereo_depth_estimator/package.xml
+[11.587s] Invoked command in '/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator

@@ -1,0 +1,1 @@
+/home/andux/Depth-Estimation-Algoritm-with-Stereo-Camera/build/stereo_depth_estimator/ament_cmake_core/stereo_depth_estimatorConfig-version.cmake
